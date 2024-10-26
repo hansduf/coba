@@ -886,26 +886,16 @@ video {
   --tw-bg-opacity: 0.75;
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.from-pink-300 {
-  --tw-gradient-from: #f9a8d4 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(249 168 212 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.to-pink-500 {
-  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .fill-current {
@@ -1252,22 +1242,14 @@ video {
   background-color: rgb(255 111 97 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-white:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-pink-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[url\(\'dist\/img\/bg-aboutus-hover\.png\'\)\]:hover {
-  background-image: url('dist/img/bg-aboutus-hover.png');
-}
-
-.hover\:bg-\[url\(\'dist\/img\/bg-los-hover\.png\'\)\]:hover {
-  background-image: url('dist/img/bg-los-hover.png');
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#FF6F61\]:hover {
@@ -1409,6 +1391,10 @@ video {
 
   .lg\:min-h-\[700px\] {
     min-height: 700px;
+  }
+
+  .lg\:min-h-\[650px\] {
+    min-height: 650px;
   }
 
   .lg\:w-1\/2 {
